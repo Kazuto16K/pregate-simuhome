@@ -1,0 +1,22 @@
+{
+  "seed": 49,
+  "query_type": "qt4-2",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_infeasible_seed_49.json",
+  "query": "I am finishing a load of laundry and want things ready when I return. At 11:08 AM, which is 15 minutes before dryer 2 in the utility room finishes, set refrigerator 1 in the kitchen to about three degrees Celsius and turn on light 1 in the bathroom so the fridge is chilled before I unload groceries and the bathroom is lit for sorting and folding",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

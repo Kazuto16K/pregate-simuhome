@@ -1,0 +1,22 @@
+{
+  "seed": 8,
+  "query_type": "qt4-3",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_infeasible_seed_8.json",
+  "query": "Start dishwasher 1 in the kitchen at one fifty PM. Pause dishwasher 1 when washer 1 in the utility room finishes to avoid tripping the breaker and have the dishes ready for dinner.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: workflow status polling budget exceeded for '732a742b-5091-45f2-8526-d50bdabf2746'"
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

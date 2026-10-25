@@ -1,0 +1,22 @@
+{
+  "seed": 52,
+  "query_type": "qt4-3",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_infeasible_seed_52.json",
+  "query": "Start dishwasher 2 in the kitchen at 2 50 PM to stagger cycles and avoid overloading the kitchen circuit so dishes are ready for dinner. Pause dishwasher 2 when dishwasher 1 in the kitchen finishes.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

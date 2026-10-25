@@ -1,0 +1,22 @@
+{
+  "seed": 26,
+  "query_type": "qt4-2",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_feasible_seed_26.json",
+  "query": "I am folding the last load and getting dinner ready 22 minutes before the dryer 1 in the utility room finishes, set refrigerator 1 in the kitchen to 5.0°C and turn on AC 1 in the utility room with cooling and fan 30%",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": 0,
+    "error_type": "Model Output Format Error",
+    "error_category": "model",
+    "attempted": true,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: reached 3 consecutive failures (invalid structured output)."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

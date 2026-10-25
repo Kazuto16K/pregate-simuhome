@@ -1,0 +1,136 @@
+{
+  "0": [
+    {
+      "query": "I am at my desk finishing a report and want to cut the glare, move living room blinds 1 to 80.0% closed 11 minutes from now and adjust it to 65.0% closed 19 minutes after the previous action. I will start cooking and do not want smells in my work area, turn on kitchen fan 1 power on and set fan 30% 20 minutes from now and increase it to fan 50% 23 minutes after the previous action.",
+      "why": "goal 2: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "I am at my desk finishing a report and want to cut the glare, move living room blinds 1 to 80.0% closed 11 minutes from now and adjust it to 65.0% closed 19 minutes after the previous action. I will start cooking and do not want smells in my work area, turn on kitchen fan 1 power on and set fan 30% 20 minutes from now and increase it to fan 50% 23 minutes after the previous action.",
+      "why": "goal 3: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "Finishing up at the kitchen counter and juggling plates, set dimmer light 1 in the living room to power on and level 60 at 15 minutes from now and bump it to power on and level 100 at 23 minutes after the previous action. Also the dining room feels a bit muggy from cooking so switch on dehumidifier 1 in the dining room to power on and fan 60% at 26 minutes from now and nudge it to power on and fan 40% at 25 minutes after the previous action.",
+      "why": "goal 2: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "Finishing up at the kitchen counter and juggling plates, set dimmer light 1 in the living room to power on and level 60 at 15 minutes from now and bump it to power on and level 100 at 23 minutes after the previous action. Also the dining room feels a bit muggy from cooking so switch on dehumidifier 1 in the dining room to power on and fan 60% at 26 minutes from now and nudge it to power on and fan 40% at 25 minutes after the previous action.",
+      "why": "goal 3: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "I am tucking the kids into bed and need a quick setup. Turn on living room light 1 in 6 minutes from now so the living room is softly lit when we come out, and cool the kitchen refrigerator 1 down to 1.0°C 8 minutes after the previous action so the milk is extra cold for a late snack",
+      "why": "goal 1: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "I will be folding right after the laundry ends and I want the utility room ready with natural light and ventilation. At 12:26 PM, which is exactly 8 minutes after dryer 1 in the utility room finishes, open blinds 1 in the utility room all the way and turn on light 1 in the utility room so the space is bright and ready for folding.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "I have a video call in 20 minutes and I need the house quiet when it starts. Start robot vacuum 1 in the office at the right time in Running state. Time it so dishwasher 1 in the kitchen and robot vacuum 1 in the office finish together and have robot vacuum 1 end in Stopped state.",
+      "why": "goal 0: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "Start dryer 1 in the utility room at six fifty six PM on Normal dryness level. Pause dryer 1 when dryer 2 in the utility room finishes to avoid tripping the circuit and to have each load ready for folding.",
+      "why": "wrong verdict: predicted feasible"
+    }
+  ],
+  "1": [
+    {
+      "query": "I am buried in emails at my desk and need the living room ready for a quick visitor, power on dehumidifier 1 in the living room 5 minutes from now with fan 40% and 9 minutes after the previous action keep it on and bump the fan to 60%. I have a long video call coming up and want the air mild at my workspace, power on air purifier 1 in the office 29 minutes from now with fan 40% and 13 minutes after the previous action keep it on and nudge the fan to 50%",
+      "why": "goal 1: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "I am buried in emails at my desk and need the living room ready for a quick visitor, power on dehumidifier 1 in the living room 5 minutes from now with fan 40% and 9 minutes after the previous action keep it on and bump the fan to 60%. I have a long video call coming up and want the air mild at my workspace, power on air purifier 1 in the office 29 minutes from now with fan 40% and 13 minutes after the previous action keep it on and nudge the fan to 50%",
+      "why": "goal 3: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "Guests are arriving soon and I need the laundry and dishes done together by four forty two PM, so start dryer 1 in the utility room now on Normal dryness level so it finishes with dishwasher 1 in the kitchen by four forty two PM.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Dishwasher 1 in the kitchen is already running and guests arrive soon so please start dryer 1 in the bathroom on Normal dryness level now so both finish together by eleven thirty nine AM.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Start dishwasher 1 in the kitchen at 2 05 PM to avoid a power peak while dryer 1 in the utility room runs, and pause dishwasher 1 when dryer 1 in the utility room finishes.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Start washer 1 in the utility room at three forty three PM on Heavy mode so the full load is ready for drying. Pause washer 1 in the utility room when dryer 1 in the utility room finishes to allow immediate transfer and avoid overlapping cycles.",
+      "why": "wrong verdict: predicted feasible"
+    }
+  ],
+  "2": [
+    {
+      "query": "Quick note since I'm on the couch finishing a video call and the sun is glaring. Close blinds 1 in the living room fully at 8 minutes from now and adjust it to 10.0% closed 26 minutes after the previous action so there is a sliver of light. Also switch heat pump 1 in the living room to heating mode 19 minutes from now to take the chill off.",
+      "why": "invalid JSON"
+    },
+    {
+      "query": "Kitchen is tidy and I will head to the study to catch the news. 16 minutes after the dishwasher 1 in the kitchen finishes, turn on TV 1 in the study room and tune it to MBC and KBS1 and power on light 2 in the study room",
+      "why": "invalid JSON"
+    },
+    {
+      "query": "Start dryer 1 in the utility room at 6 53 PM on extra dryness level so the load is fully dry before I fold. Pause dryer 1 in the utility room immediately when washer 1 in the bathroom finishes to avoid overdrying and let me transfer the clothes.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Start dishwasher 2 in the kitchen at 2 50 PM to stagger cycles and avoid overloading the kitchen circuit so dishes are ready for dinner. Pause dishwasher 2 when dishwasher 1 in the kitchen finishes.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "I expect dryer 1 in the bathroom to finish around nine fifty two AM. Start robot vacuum 1 in the living room fifteen minutes later at ten oh seven AM so the floor has time to dry before cleaning.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Start washer 1 in the utility room at 3 12 PM on Heavy Whites mode. Pause washer 1 in the utility room automatically when dryer 1 in the utility room finishes so I can transfer the load immediately and avoid mildew.",
+      "why": "wrong verdict: predicted feasible"
+    }
+  ],
+  "3": [
+    {
+      "query": "Hey, schedule light 1 in the office to turn on in 22 minutes from now which will be 5 23 PM because I will be starting a video call and need the office well lit",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Start washer 1 in the utility room at 1 59 PM on Heavy mode so I can swap the load to the dryer without overlap. Pause washer 1 when washer 2 in the utility room finishes.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "I expect dishwasher 1 in the kitchen to finish right around four forty two PM. Start washer 1 in the utility room nineteen minutes later exactly five oh one PM to stagger loads and avoid tripping the breaker.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Dinner guests arrive soon and dishwasher 1 in the kitchen is still mid cycle, so start robot vacuum 1 in the office and have both devices finish together by six forty four PM.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Washer 1 in the utility room should finish around seven twenty three PM. Start dryer 2 in the utility room nineteen minutes later at seven forty two PM so I have time to transfer the load and prevent damp smells.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Dishwasher 1 in the kitchen will finish around two forty eight PM based on the current cycle time. Start washer 1 in the utility room 14 minutes later so the machines do not overlap and the utility room can vent and cool.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "My parents are arriving soon and dryer 1 in the utility room will be done at 12 38 PM so I need the living room tidy. Start robot vacuum 2 in the living room and time it to finish by 12 38 PM so both dryer 1 in the utility room and robot vacuum 2 in the living room finish together.",
+      "why": "wrong verdict: predicted feasible"
+    },
+    {
+      "query": "Start dishwasher 1 in the kitchen at one fifty PM. Pause dishwasher 1 when washer 1 in the utility room finishes to avoid tripping the breaker and have the dishes ready for dinner.",
+      "why": "wrong verdict: predicted feasible"
+    }
+  ],
+  "4": [
+    {
+      "query": "I am still in bed reading and want to time a few things while I finish. Close blinds 2 in living room fully closed 13 minutes from now because I do not want street glare on the plants. Also get TV 1 in bedroom playing 28 minutes from now so it is ready when I get up. Plus nudge it to 65.0% closed 28 minutes after the previous action to keep a softer glow in the living room.",
+      "why": "goal 2: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "Quick heads up while I am sorting wet towels by the washer get dehumidifier 1 in the utility room powered on with fan 50% 5 minutes from now and 12 minutes after the previous action set it to power on and fan 30% because I want the laundry area less humid. Also since I will be carrying a bunch of chilled meal prep over to the counter cool refrigerator 1 in the kitchen to temp 5.0°C 16 minutes from now and 7 minutes after the previous action set it to temp 1.0°C so the food is properly chilled before I move it.",
+      "why": "goal 2: a CORRECT schedule would be refused by the time check"
+    },
+    {
+      "query": "I expect dryer 1 in the utility room to finish around seven ten PM. Start robot vacuum 1 in the office fourteen minutes after that, about seven twenty four PM, so the floor will be cool and dry for cleaning.",
+      "why": "wrong verdict: predicted feasible"
+    }
+  ]
+}

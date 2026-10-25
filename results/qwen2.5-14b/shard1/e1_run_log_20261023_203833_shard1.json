@@ -1,0 +1,208 @@
+[
+  {
+    "run_id": "a2_baseline_qt4_1_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-23 20:38:34",
+    "total": 24,
+    "skipped": 24,
+    "success": 0,
+    "failed": 0,
+    "not_started": 0,
+    "seconds": 0,
+    "llm_calls": 0,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 0,
+      "errors": 0,
+      "held_seconds": 0.0
+    }
+  },
+  {
+    "run_id": "a2_selfcheck_qt4_1_feasible_ch",
+    "arm": "selfcheck",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-23 20:38:34",
+    "total": 24,
+    "skipped": 22,
+    "success": 0,
+    "failed": 2,
+    "not_started": 0,
+    "seconds": 180,
+    "llm_calls": 40,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 40,
+      "errors": 0,
+      "held_seconds": 299.96257066726685
+    }
+  },
+  {
+    "run_id": "a2_full_qt4_1_feasible_ch_g22",
+    "arm": "full",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-23 20:41:35",
+    "total": 24,
+    "skipped": 23,
+    "success": 0,
+    "failed": 1,
+    "not_started": 0,
+    "seconds": 506,
+    "llm_calls": 20,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 60,
+      "errors": 0,
+      "held_seconds": 774.7001466751099
+    }
+  },
+  {
+    "run_id": "a2_baseline_qt4_2_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-2|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-23 20:50:00",
+    "total": 24,
+    "skipped": 23,
+    "success": 1,
+    "failed": 0,
+    "not_started": 0,
+    "seconds": 111,
+    "llm_calls": 5,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 65,
+      "errors": 0,
+      "held_seconds": 822.7271995544434
+    }
+  },
+  {
+    "run_id": "a2_selfcheck_qt4_2_feasible_ch",
+    "arm": "selfcheck",
+    "cell": "qt4-2|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-23 20:51:51",
+    "total": 24,
+    "skipped": 13,
+    "success": 7,
+    "failed": 4,
+    "not_started": 0,
+    "seconds": 1309,
+    "llm_calls": 134,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 199,
+      "errors": 0,
+      "held_seconds": 1540.4844167232513
+    }
+  },
+  {
+    "run_id": "a2_full_qt4_2_feasible_ch_g22",
+    "arm": "full",
+    "cell": "qt4-2|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-23 21:13:40",
+    "total": 24,
+    "skipped": 0,
+    "success": 21,
+    "failed": 3,
+    "not_started": 0,
+    "seconds": 8668,
+    "llm_calls": 264,
+    "shim_errors": {
+      "APITimeoutError": 7
+    },
+    "clock": {
+      "hold": true,
+      "holds": 456,
+      "errors": 0,
+      "held_seconds": 12368.14514040947
+    }
+  },
+  {
+    "run_id": "a2_baseline_qt4_3_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-3|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-23 23:38:08",
+    "total": 25,
+    "skipped": 0,
+    "success": 21,
+    "failed": 4,
+    "not_started": 0,
+    "seconds": 2496,
+    "llm_calls": 269,
+    "shim_errors": {
+      "APITimeoutError": 7
+    },
+    "clock": {
+      "hold": true,
+      "holds": 725,
+      "errors": 0,
+      "held_seconds": 14549.453633069992
+    }
+  },
+  {
+    "run_id": "a2_selfcheck_qt4_3_feasible_ch",
+    "arm": "selfcheck",
+    "cell": "qt4-3|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-24 00:19:44",
+    "total": 25,
+    "skipped": 0,
+    "success": 20,
+    "failed": 5,
+    "not_started": 0,
+    "seconds": 2698,
+    "llm_calls": 299,
+    "shim_errors": {
+      "APITimeoutError": 9
+    },
+    "clock": {
+      "hold": true,
+      "holds": 1022,
+      "errors": 0,
+      "held_seconds": 18732.095405817032
+    }
+  }
+]

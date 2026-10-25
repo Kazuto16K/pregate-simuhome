@@ -1,0 +1,22 @@
+{
+  "seed": 7,
+  "query_type": "qt4-3",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_infeasible_seed_7.json",
+  "query": "Start washer 1 in the utility room at 3 12 PM on Heavy Whites mode. Pause washer 1 in the utility room automatically when dryer 1 in the utility room finishes so I can transfer the load immediately and avoid mildew.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Network Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: LLM request exhausted 1 attempts: Request timed out."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

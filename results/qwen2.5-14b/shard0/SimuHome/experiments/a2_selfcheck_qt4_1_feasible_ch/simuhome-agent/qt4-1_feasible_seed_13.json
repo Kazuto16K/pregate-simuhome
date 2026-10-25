@@ -1,0 +1,22 @@
+{
+  "seed": 13,
+  "query_type": "qt4-1",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-1_feasible_seed_13.json",
+  "query": "Finishing a messy breakfast at the counter and wanting the house to look tidy, can you handle a couple things in the bathroom. Set blinds 1 in bathroom to 10.0% closed in 9 minutes from now and then set blinds 1 in bathroom to fully closed in 12 minutes after the previous action so the mirror doesn't catch the morning glare while I wipe the table. Also since I'll be boiling water, power up fan 1 in bathroom to power on plus fan 30% in 25 minutes from now and then bump it to power on plus fan 80% in 12 minutes after the previous action to clear the steam quickly.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

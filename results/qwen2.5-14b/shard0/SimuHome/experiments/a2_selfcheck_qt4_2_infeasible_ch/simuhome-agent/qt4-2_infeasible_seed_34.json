@@ -1,0 +1,22 @@
+{
+  "seed": 34,
+  "query_type": "qt4-2",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_infeasible_seed_34.json",
+  "query": "I am finishing dinner and will unload the dishwasher and grab a quick shower, so I want the rooms ready. At 6:57 PM, which is exactly 12 minutes before dishwasher 1 in the kitchen finishes, turn on light 1 in the office and turn on AC 1 in the bathroom set to cool with a low fan so the office is lit for sorting and the bathroom is comfortably refreshed when I get there",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": 0,
+    "error_type": "Model Output Format Error",
+    "error_category": "model",
+    "attempted": true,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: reached 3 consecutive failures (invalid structured output)."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

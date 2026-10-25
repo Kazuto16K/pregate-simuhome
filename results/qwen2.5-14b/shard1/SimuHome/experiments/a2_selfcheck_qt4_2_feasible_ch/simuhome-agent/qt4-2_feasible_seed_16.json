@@ -1,0 +1,22 @@
+{
+  "seed": 16,
+  "query_type": "qt4-2",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_feasible_seed_16.json",
+  "query": "I am finishing some paperwork and will sort the laundry. 18 minutes before the dryer 1 in the utility room finishes, turn on dimmer light 1 in the study room and set it to level 100 and turn on light 1 in the living room",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "500 Server Error: Internal Server Error for url: http://127.0.0.1:39387/api/home/state"
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

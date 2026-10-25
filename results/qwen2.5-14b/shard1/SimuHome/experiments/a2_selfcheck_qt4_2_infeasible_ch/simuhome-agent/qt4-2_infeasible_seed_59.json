@@ -1,0 +1,22 @@
+{
+  "seed": 59,
+  "query_type": "qt4-2",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_infeasible_seed_59.json",
+  "query": "At 1:14 PM, which is 5 minutes before dishwasher 1 in the kitchen finishes, start cooling so the rooms are comfortable when I unload the dishes and to keep steam from making the house muggy. Turn on AC 1 in the utility room to cool with the fan near its top speed and also turn on AC 1 in the living room to cool with the fan a bit lower for gentle airflow.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

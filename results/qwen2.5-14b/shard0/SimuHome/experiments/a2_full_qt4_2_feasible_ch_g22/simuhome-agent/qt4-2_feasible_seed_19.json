@@ -1,0 +1,22 @@
+{
+  "seed": 19,
+  "query_type": "qt4-2",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_feasible_seed_19.json",
+  "query": "Plates are rinsed and I will chill on the couch. 17 minutes after the dishwasher 1 in the kitchen finishes, power on dehumidifier 1 in the living room and set fan to 70 percent and power on AC 2 in the bedroom and set to cooling with fan at 50 percent",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": 0,
+    "error_type": "Model Output Format Error",
+    "error_category": "model",
+    "attempted": true,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: reached 3 consecutive failures (invalid structured output)."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

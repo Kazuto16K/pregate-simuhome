@@ -1,0 +1,22 @@
+{
+  "seed": 24,
+  "query_type": "qt4-1",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-1_infeasible_seed_24.json",
+  "query": "Set heat pump 2 in the kids room to heating mode at 4:23 PM, that's 10 minutes from now, I am in the utility room and want the room warm before the kids get home.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

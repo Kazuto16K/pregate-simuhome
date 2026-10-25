@@ -1,0 +1,4 @@
+z3-solver
+openai
+requests
+scipy

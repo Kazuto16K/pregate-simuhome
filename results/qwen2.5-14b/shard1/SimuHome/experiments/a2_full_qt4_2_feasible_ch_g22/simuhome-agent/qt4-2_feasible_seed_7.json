@@ -1,0 +1,22 @@
+{
+  "seed": 7,
+  "query_type": "qt4-2",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_feasible_seed_7.json",
+  "query": "I am folding the last load and will sort papers in the study. 6 minutes before the dryer 1 in the utility room finishes, power on dehumidifier 1 in the study room and set the fan to 50% plus power on light 1 in the utility room.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

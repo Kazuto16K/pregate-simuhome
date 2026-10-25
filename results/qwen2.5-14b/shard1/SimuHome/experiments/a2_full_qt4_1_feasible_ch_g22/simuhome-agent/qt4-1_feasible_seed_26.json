@@ -1,0 +1,22 @@
+{
+  "seed": 26,
+  "query_type": "qt4-1",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-1_feasible_seed_26.json",
+  "query": "Sitting on the couch with a cup of tea and noticing the dining corner getting clammy, switch on dehumidifier 2 in the dining room 9 minutes from now power on and fan 40% and 29 minutes after the previous action keep dehumidifier 2 in the dining room powered on and increase fan to 60% to stop that window nook from smelling musty. Also because the bathroom tends to haze up after showers, switch on air purifier 1 in the bathroom 24 minutes from now power on and fan 50% and 22 minutes after the previous action keep air purifier 1 in the bathroom powered on and increase fan to 80% so the air is clear for whoever needs it.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

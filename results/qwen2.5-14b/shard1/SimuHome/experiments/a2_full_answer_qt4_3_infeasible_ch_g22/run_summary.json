@@ -1,0 +1,11 @@
+{
+  "run_id": "a2_full_answer_qt4_3_infeasible_ch_g22",
+  "model": "simuhome-agent",
+  "workers": 2,
+  "total": 25,
+  "skipped": 0,
+  "success": 24,
+  "failed": 1,
+  "not_started": 0,
+  "seconds": 593.5
+}

@@ -1,0 +1,22 @@
+{
+  "seed": 20,
+  "query_type": "qt4-3",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_feasible_seed_20.json",
+  "query": "I'm about to jump on a call and need to grab warm towels the minute the dryer dings, so start and run dishwasher 1 in the kitchen now and get it going, and when dryer 1 in the utility room finishes pause dishwasher 1 in the kitchen",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

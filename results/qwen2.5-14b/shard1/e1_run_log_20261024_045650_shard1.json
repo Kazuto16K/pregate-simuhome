@@ -1,0 +1,102 @@
+[
+  {
+    "run_id": "a2_baseline_qt4_1_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-24 04:56:52",
+    "total": 24,
+    "skipped": 24,
+    "success": 0,
+    "failed": 0,
+    "not_started": 0,
+    "seconds": 0,
+    "llm_calls": 0,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 0,
+      "errors": 0,
+      "held_seconds": 0.0
+    }
+  },
+  {
+    "run_id": "a2_selfcheck_qt4_1_feasible_ch",
+    "arm": "selfcheck",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-24 04:56:52",
+    "total": 24,
+    "skipped": 22,
+    "success": 0,
+    "failed": 2,
+    "not_started": 0,
+    "seconds": 184,
+    "llm_calls": 40,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 40,
+      "errors": 0,
+      "held_seconds": 312.9939568042755
+    }
+  },
+  {
+    "run_id": "a2_full_qt4_1_feasible_ch_g22",
+    "arm": "full",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-24 04:59:56",
+    "total": 24,
+    "skipped": 23,
+    "success": 0,
+    "failed": 1,
+    "not_started": 0,
+    "seconds": 510,
+    "llm_calls": 20,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 60,
+      "errors": 0,
+      "held_seconds": 791.1108465194702
+    }
+  },
+  {
+    "run_id": "a2_baseline_qt4_2_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-2|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "1/2",
+    "started": "2026-10-24 05:08:26",
+    "total": 24,
+    "skipped": 24,
+    "success": 0,
+    "failed": 0,
+    "not_started": 0,
+    "seconds": 0,
+    "llm_calls": 0,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 60,
+      "errors": 0,
+      "held_seconds": 791.1108465194702
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "seed": 28,
+  "query_type": "qt4-2",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_infeasible_seed_28.json",
+  "query": "The dryer is almost done and I want to cut the final humidity and protect the living room from late sun glare, so at 11:21 AM, which is exactly 27 minutes before the dryer 1 in the utility room finishes drying, close blinds 1 in the living room to about two thirds closed and turn on dehumidifier 1 in the utility room and set its fan to a medium speed.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": 0,
+    "error_type": "Model Output Format Error",
+    "error_category": "model",
+    "attempted": true,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: reached 3 consecutive failures (invalid structured output)."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

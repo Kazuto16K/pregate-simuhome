@@ -1,0 +1,22 @@
+{
+  "seed": 45,
+  "query_type": "qt4-3",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_infeasible_seed_45.json",
+  "query": "Start washer 1 in the utility room soon so washer 1 in the utility room and dryer 1 in the utility room finish together. I need to fold and hang everything at once.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

@@ -1,0 +1,22 @@
+{
+  "seed": 30,
+  "query_type": "qt4-2",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_infeasible_seed_30.json",
+  "query": "At 6:13 PM, which is 24 minutes before the washer 1 in the utility room finishes, I am wrapping up an online meeting and want the office darker for focus and the bathroom cooled before I head there, so close blinds 1 in the office about three quarters and also turn on AC 1 in the bathroom to cooling with the fan set to a strong breeze",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

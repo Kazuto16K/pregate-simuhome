@@ -1,0 +1,22 @@
+{
+  "seed": 11,
+  "query_type": "qt4-3",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_infeasible_seed_11.json",
+  "query": "Start dryer 1 in the utility room at 6 14 PM on Max dryness level for the bed linens. Pause dryer 1 in the utility room when washer 1 in the utility room finishes to prevent wrinkles and save energy.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: workflow status polling budget exceeded for '5b33dc63-5247-4a6e-992f-43d01045ee80'"
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

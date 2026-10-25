@@ -1,0 +1,22 @@
+{
+  "seed": 12,
+  "query_type": "qt4-3",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_infeasible_seed_12.json",
+  "query": "Start dryer 1 in the utility room at five fourteen PM with Normal dryness level. Pause dryer 1 in the utility room when dryer 1 in the bathroom finishes so the circuit stays stable and both loads are ready to fold.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

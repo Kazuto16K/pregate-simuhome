@@ -1,0 +1,22 @@
+{
+  "seed": 26,
+  "query_type": "qt4-1",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-1_infeasible_seed_26.json",
+  "query": "At 12:33 PM, that is 9 minutes from now, turn on dehumidifier 2 in the dining room and set the fan to 40 percent, I need it running to pull down the humidity after cooking while I stay in the living room.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

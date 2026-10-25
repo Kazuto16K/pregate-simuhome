@@ -1,0 +1,11 @@
+{
+  "run_id": "a2_selfcheck_qt4_3_feasible_ch",
+  "model": "simuhome-agent",
+  "workers": 2,
+  "total": 25,
+  "skipped": 20,
+  "success": 3,
+  "failed": 2,
+  "not_started": 0,
+  "seconds": 770.6
+}

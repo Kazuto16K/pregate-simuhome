@@ -1,0 +1,22 @@
+{
+  "seed": 46,
+  "query_type": "qt4-1",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-1_infeasible_seed_46.json",
+  "query": "At 10:26 AM, that's 21 minutes from now, set freezer 1 in the kitchen to temp -20.0°c so the seafood batch I just prepped chills properly while I finish in the bathroom.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

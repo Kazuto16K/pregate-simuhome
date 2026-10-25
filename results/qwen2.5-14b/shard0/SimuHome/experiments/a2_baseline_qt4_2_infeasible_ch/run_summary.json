@@ -1,0 +1,11 @@
+{
+  "run_id": "a2_baseline_qt4_2_infeasible_ch",
+  "model": "simuhome-agent",
+  "workers": 2,
+  "total": 25,
+  "skipped": 1,
+  "success": 24,
+  "failed": 0,
+  "not_started": 0,
+  "seconds": 823.7
+}

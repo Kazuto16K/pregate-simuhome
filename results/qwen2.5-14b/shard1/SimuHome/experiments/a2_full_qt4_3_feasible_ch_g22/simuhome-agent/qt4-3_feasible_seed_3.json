@@ -1,0 +1,22 @@
+{
+  "seed": 3,
+  "query_type": "qt4-3",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_feasible_seed_3.json",
+  "query": "I need the heavy garden towels done before the pickup and I don't want both machines running when the driver arrives. Start washer 1 in the utility room on Heavy mode now and pause washer 1 in the utility room when washer 2 in the utility room finishes.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

@@ -1,0 +1,22 @@
+{
+  "seed": 43,
+  "query_type": "qt4-2",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_infeasible_seed_43.json",
+  "query": "At 10:33 AM, which is exactly 19 minutes after dryer 2 in the utility room finishes, I will be bringing the warm laundry out to fold. Turn on light 1 in the utility room and also turn on AC 1 in the bedroom to cool with a moderate fan speed.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": 0,
+    "error_type": "Model Output Format Error",
+    "error_category": "model",
+    "attempted": true,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: reached 3 consecutive failures (invalid structured output)."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

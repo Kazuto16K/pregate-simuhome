@@ -1,0 +1,50 @@
+[
+  {
+    "episode": "a2_selfcheck_qt4_1_feasible_ch/qt4-1_feasible_seed_24",
+    "arm": "selfcheck",
+    "query": "While I am over by the washer folding the last load I want a couple of things ready. Get heat pump 2 in kids room into heating mode 10 minutes from now so the kids come in from playing and find it coz",
+    "answered_by_gate": false,
+    "parse_seconds": 0.0,
+    "parse_error": null,
+    "episode_seconds": 133.29
+  },
+  {
+    "episode": "a2_selfcheck_qt4_1_feasible_ch/qt4-1_feasible_seed_36",
+    "arm": "selfcheck",
+    "query": "Quick heads up I am rinsing off and do not want to step straight into bright light so pull blinds 1 in living room to 85.0 percent closed 5 minutes from now and 21 minutes after the previous action mo",
+    "answered_by_gate": false,
+    "parse_seconds": 0.0,
+    "parse_error": null,
+    "episode_seconds": 183.88
+  },
+  {
+    "episode": "a2_full_qt4_1_feasible_ch_g22/qt4-1_feasible_seed_26",
+    "arm": "full",
+    "query": "Sitting on the couch with a cup of tea and noticing the dining corner getting clammy, switch on dehumidifier 2 in the dining room 9 minutes from now power on and fan 40% and 29 minutes after the previ",
+    "answered_by_gate": false,
+    "parse_seconds": 0.0001239776611328125,
+    "parse_error": null,
+    "episode_seconds": 509.6,
+    "preflight": "sat",
+    "preflight_seconds": 0.11963367462158203,
+    "clock_readings_dropped": 0,
+    "device_names_repaired": 0,
+    "device_names_unresolved": 0,
+    "chains_repaired": 0,
+    "clock_readings_restored": 0,
+    "time_unchecked": 11,
+    "schedule_calls": 15,
+    "passed": 11,
+    "unsat_rejections": 0,
+    "time_rejections": 0,
+    "dry_run_rejections": 2,
+    "target_rejections": 0,
+    "target_warnings": 0,
+    "no_effect_rejections": 2,
+    "effect_matched_calls": 0,
+    "unmatched_calls": 0,
+    "fail_open": 0,
+    "dry_run_seconds": 30.29234004020691,
+    "events": []
+  }
+]

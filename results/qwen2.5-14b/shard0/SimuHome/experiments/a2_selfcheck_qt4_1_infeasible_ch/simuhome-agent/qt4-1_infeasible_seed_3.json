@@ -1,0 +1,22 @@
+{
+  "seed": 3,
+  "query_type": "qt4-1",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-1_infeasible_seed_3.json",
+  "query": "Turn on light 1 in the bathroom at 1:01 PM, that's 9 minutes from now. I am in the utility room and need the bathroom light on to inspect the washing machine hoses.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

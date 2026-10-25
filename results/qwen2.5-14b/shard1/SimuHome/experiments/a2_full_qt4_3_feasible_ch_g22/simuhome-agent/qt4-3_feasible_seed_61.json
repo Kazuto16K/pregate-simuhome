@@ -1,0 +1,22 @@
+{
+  "seed": 61,
+  "query_type": "qt4-3",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_feasible_seed_61.json",
+  "query": "Just realized I need warm towels for a guest so start and run dryer 1 in the utility room on Extra dryness level now and pause dryer 1 when washer 1 in the utility room finishes",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

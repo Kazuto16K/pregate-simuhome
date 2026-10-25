@@ -1,0 +1,22 @@
+{
+  "seed": 35,
+  "query_type": "qt4-2",
+  "case": "infeasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-2_infeasible_seed_35.json",
+  "query": "At 5:48 PM, which is exactly 15 minutes before washer 1 in the utility room finishes, I need extra light and airflow so I can start sorting damp laundry and cut humidity. Turn fan 1 in the bathroom on and set it to a brisk airflow and also turn light 1 in the utility room on",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

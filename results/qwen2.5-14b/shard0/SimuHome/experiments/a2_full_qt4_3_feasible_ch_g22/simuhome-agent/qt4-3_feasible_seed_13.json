@@ -1,0 +1,22 @@
+{
+  "seed": 13,
+  "query_type": "qt4-3",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-3_feasible_seed_13.json",
+  "query": "Quick reminder I need both done when I set the table. Start dryer 1 in the utility room at the right time and put it into Running state at Normal dryness level. Time it so dishwasher 1 in the kitchen and dryer 1 in the utility room finish at the same time. Make sure dryer 1 ends in Stopped state.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}

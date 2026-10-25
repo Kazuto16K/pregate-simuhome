@@ -1,0 +1,185 @@
+[
+  {
+    "run_id": "a2_baseline_qt4_1_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "0/2",
+    "started": "2026-10-23 12:10:52",
+    "total": 25,
+    "skipped": 0,
+    "success": 24,
+    "failed": 1,
+    "not_started": 0,
+    "seconds": 2443,
+    "llm_calls": 147,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 147,
+      "errors": 0,
+      "held_seconds": 1141.2122821807861
+    }
+  },
+  {
+    "run_id": "a2_selfcheck_qt4_1_feasible_ch",
+    "arm": "selfcheck",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "0/2",
+    "started": "2026-10-23 12:51:36",
+    "total": 25,
+    "skipped": 0,
+    "success": 21,
+    "failed": 4,
+    "not_started": 0,
+    "seconds": 2682,
+    "llm_calls": 211,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 358,
+      "errors": 0,
+      "held_seconds": 3182.994376182556
+    }
+  },
+  {
+    "run_id": "a2_full_qt4_1_feasible_ch_g22",
+    "arm": "full",
+    "cell": "qt4-1|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "0/2",
+    "started": "2026-10-23 13:36:18",
+    "total": 25,
+    "skipped": 0,
+    "success": 22,
+    "failed": 3,
+    "not_started": 0,
+    "seconds": 2981,
+    "llm_calls": 260,
+    "shim_errors": {},
+    "clock": {
+      "hold": true,
+      "holds": 618,
+      "errors": 0,
+      "held_seconds": 6047.987054347992
+    }
+  },
+  {
+    "run_id": "a2_baseline_qt4_2_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-2|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "0/2",
+    "started": "2026-10-23 14:25:59",
+    "total": 25,
+    "skipped": 0,
+    "success": 24,
+    "failed": 1,
+    "not_started": 0,
+    "seconds": 3921,
+    "llm_calls": 191,
+    "shim_errors": {
+      "APITimeoutError": 1
+    },
+    "clock": {
+      "hold": true,
+      "holds": 808,
+      "errors": 0,
+      "held_seconds": 8977.296213150024
+    }
+  },
+  {
+    "run_id": "a2_selfcheck_qt4_2_feasible_ch",
+    "arm": "selfcheck",
+    "cell": "qt4-2|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "0/2",
+    "started": "2026-10-23 15:31:20",
+    "total": 25,
+    "skipped": 0,
+    "success": 18,
+    "failed": 7,
+    "not_started": 0,
+    "seconds": 3061,
+    "llm_calls": 265,
+    "shim_errors": {
+      "APITimeoutError": 1
+    },
+    "clock": {
+      "hold": true,
+      "holds": 1073,
+      "errors": 0,
+      "held_seconds": 10580.40217924118
+    }
+  },
+  {
+    "run_id": "a2_full_qt4_2_feasible_ch_g22",
+    "arm": "full",
+    "cell": "qt4-2|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "0/2",
+    "started": "2026-10-23 16:22:21",
+    "total": 25,
+    "skipped": 0,
+    "success": 21,
+    "failed": 4,
+    "not_started": 0,
+    "seconds": 3577,
+    "llm_calls": 274,
+    "shim_errors": {
+      "APITimeoutError": 2
+    },
+    "clock": {
+      "hold": true,
+      "holds": 1346,
+      "errors": 0,
+      "held_seconds": 14002.641650915146
+    }
+  },
+  {
+    "run_id": "a2_baseline_qt4_3_feasible_ch",
+    "arm": "baseline",
+    "cell": "qt4-3|feasible",
+    "model": "simuhome-agent",
+    "workers": 2,
+    "gate_version": "2.2",
+    "clock_hold": true,
+    "shard": "0/2",
+    "started": "2026-10-23 17:21:58",
+    "total": 25,
+    "skipped": 0,
+    "success": 19,
+    "failed": 6,
+    "not_started": 0,
+    "seconds": 2026,
+    "llm_calls": 300,
+    "shim_errors": {
+      "APITimeoutError": 2
+    },
+    "clock": {
+      "hold": true,
+      "holds": 1646,
+      "errors": 0,
+      "held_seconds": 15894.282673597336
+    }
+  }
+]

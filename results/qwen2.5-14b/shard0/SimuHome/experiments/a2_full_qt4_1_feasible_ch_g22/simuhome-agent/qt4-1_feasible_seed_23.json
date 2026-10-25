@@ -1,0 +1,22 @@
+{
+  "seed": 23,
+  "query_type": "qt4-1",
+  "case": "feasible",
+  "model": "simuhome-agent",
+  "strategy": "react",
+  "config_path": "/kaggle/working/SimuHome/data/benchmark/qt4-1_feasible_seed_23.json",
+  "query": "Rinsing my face and getting things ready for my call in the study. Lower the study room blinds 1 to 35.0% closed 5 minutes from now because the sun is glaring on the desk. At 18 minutes from now, switch the bathroom heat pump 2 to heating mode so it is warm while I towel off. Then 23 minutes after lowering the study room blinds 1, move study room blinds 1 to 5.0% closed to finish darkening the study.",
+  "duration": 0.0,
+  "evaluation_result": {
+    "score": -1,
+    "error_type": "Evaluation Runtime Error",
+    "error_category": "infra",
+    "attempted": false,
+    "required_actions": [],
+    "judge": [],
+    "detail": "Episode failed: explicit finish action is required."
+  },
+  "tools_invoked": [],
+  "steps": [],
+  "trace_type": "react"
+}
